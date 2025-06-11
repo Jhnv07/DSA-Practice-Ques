@@ -1,4 +1,4 @@
-class Solution {
+class leetcode27 {
     public int removeElement(int[] nums, int val) {
         int k = 0; // Pointer for next position of valid element
 
