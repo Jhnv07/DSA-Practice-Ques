@@ -1,4 +1,7 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+class leetcode46 {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         backtrack(nums, new ArrayList<>(), result);
